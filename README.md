@@ -139,7 +139,7 @@ my-web/
 ## 🌐 部署
 ### 在线预览
 
- `https://web.jlands.cn/`
+地址：https://web.jlands.cn
  
 ### Vercel 部署
 
