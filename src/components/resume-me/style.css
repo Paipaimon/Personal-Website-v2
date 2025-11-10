@@ -1,0 +1,115 @@
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 20px;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.resume-container {
+    max-width: 800px;
+    margin: 20px auto;
+    background: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+header {
+    text-align: center;
+    border-bottom: 2px solid #eee;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+
+header h1 {
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.basic-info {
+    display: flex; /* 使用 Flexbox 布局 */
+    justify-content: space-between; /* 文本和图片（如果添加）分布在两侧 */
+    align-items: flex-start; /* 顶部对齐 */
+    text-align: left; /* 文本左对齐 */
+}
+
+.info-text p {
+    margin: 5px 0;
+}
+
+/* 如果您添加了照片，可以取消下面注释并调整样式 */
+/*
+.profile-pic {
+    width: 100px;
+    height: auto;
+    border-radius: 50%;
+    margin-left: 20px;
+}
+*/
+
+h2 {
+    color: #444;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 5px;
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+ul {
+    list-style: disc;
+    padding-left: 20px;
+}
+
+li {
+    margin-bottom: 8px;
+}
+
+strong {
+    font-weight: bold;
+}
+
+.project-item, .experience-item {
+    margin-bottom: 15px;
+}
+
+#self-evaluation p {
+    text-indent: 2em; /* 首行缩进 */
+}
+
+/* 响应式设计：在小屏幕上调整布局 */
+@media (max-width: 600px) {
+    .resume-container {
+        padding: 20px;
+    }
+
+    .basic-info {
+        flex-direction: column; /* 在小屏幕上垂直排列 */
+        align-items: center; /* 居中对齐 */
+        text-align: center; /* 文本居中 */
+    }
+
+    .info-text {
+        margin-bottom: 15px; /* 在文本和图片之间添加间距 */
+    }
+
+    /*
+    .profile-pic {
+        margin-left: 0;
+        margin-top: 15px;
+    }
+    */
+
+    h1 {
+        font-size: 1.8em;
+    }
+
+    h2 {
+        font-size: 1.3em;
+    }
+}

@@ -1,0 +1,17 @@
+<svg width="400" height="250" viewBox="0 0 400 250" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="cpsGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#EF4444;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#DC2626;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <rect width="400" height="250" fill="url(#cpsGradient)"/>
+  <circle cx="200" cy="125" r="60" fill="rgba(255,255,255,0.2)" stroke="white" stroke-width="3">
+    <animate attributeName="stroke-dasharray" values="0,377;188.5,188.5;377,0" dur="1.5s" repeatCount="indefinite"/>
+  </circle>
+  <polygon points="200,95 210,115 190,115" fill="white">
+    <animateTransform attributeName="transform" attributeType="XML" type="rotate" from="0 200 125" to="360 200 125" dur="1s" repeatCount="indefinite"/>
+  </polygon>
+  <text x="200" y="180" font-family="Arial, sans-serif" font-size="36" font-weight="bold" fill="white" text-anchor="middle">⚡</text>
+  <text x="200" y="210" font-family="Arial, sans-serif" font-size="14" fill="rgba(255,255,255,0.9)" text-anchor="middle">CPS Tester</text>
+</svg>
